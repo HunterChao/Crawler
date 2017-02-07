@@ -7,6 +7,7 @@
 ##### 采用scrapy框架抓取，运行文件为run.py，在控制台下直接运行即可，无需在cmd下启动
 ##### 链家爬取数据部分截图
 ![](https://github.com/HunterChao/Crawler/blob/master/LianJia/LianJia/lianjia.png)
+##### 链家项目的详细介绍请见知乎专栏：https://zhuanlan.zhihu.com/p/25132058?refer=pythoncrawl
 ### 豆瓣电影信息抓取
 ##### 按电影分类爬取豆瓣上全部电影信息，共87000余条数据。
 ##### 包括读取电影分类信息GetPage.py，爬取各类别下电影详情介绍FullContents.py。
