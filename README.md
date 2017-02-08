@@ -11,3 +11,4 @@
 ### 豆瓣电影信息抓取
 ##### 按电影分类爬取豆瓣上全部电影信息，共87000余条数据。
 ##### 包括读取电影分类信息GetPage.py，爬取各类别下电影详情介绍FullContents.py。
+##### 豆瓣电影信息的详细介绍请见知乎专栏：https://zhuanlan.zhihu.com/p/24771128?refer=pythoncrawl
