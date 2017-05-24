@@ -24,7 +24,7 @@ class LianjiaSpider(RedisSpider):
         headers = {'User-Agent': user_agent}
         lists = response.body.decode('utf-8')
         selector = etree.HTML(lists)
-        area_list = selector.xpath('/html/body/div[3]/div[2]/dl[2]/dd/div[1]/div/a')
+        area_list = selector.xpath('/html/body/div[3]/div[1]/dl[2]/dd/div[1]/div/a')
         for area in area_list:
             try:
                 area_han = area.xpath('text()').pop()    # 地点
